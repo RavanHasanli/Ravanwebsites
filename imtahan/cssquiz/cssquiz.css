@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.s1div1{
+    display: flex;
+}
+
+.s1div6{
+    display: flex;
+}
+
+.s1div1>div{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.s1div1>div:hover{
+    background-color: black;
+    scale: 120%;
+    transition: 0.9s;
+    opacity: 1;
+}
+
+.s1div6>div{
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.s1div6>div:hover{
+    background-color: black;
+    scale: 120%;
+    transition: 0.9s;
+    opacity: 1;
+}
